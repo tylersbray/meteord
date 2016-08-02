@@ -1,5 +1,5 @@
-FROM debian:wheezy
-MAINTAINER MeteorHacks Pvt Ltd.
+FROM centos:7
+MAINTAINER "me" <me@example.com>
 
 ENV METEORD_DIR /opt/meteord
 COPY scripts $METEORD_DIR
